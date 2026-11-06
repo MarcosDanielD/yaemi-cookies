@@ -72,3 +72,4 @@ Desenvolvido rigorosamente com a paleta de cores oficial da marca:
 - **Área de Entrega**: Curitiba e Região Metropolitana
 - **Instagram**: [@yaemi.doces](https://www.instagram.com/yaemi.doces/)
 - **Produtos**: Cookies Recheados, Brigadeiros Gourmet e Bolos Caseiros
+
