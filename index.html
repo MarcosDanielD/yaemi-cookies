@@ -1,0 +1,1133 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Yaemi Cookies e Doces Artesanais — Curitiba, PR</title>
+  <meta name="description" content="Yaemi Cookies e Doces Artesanais: cookies recheados, brigadeiros gourmet e bolos caseiros feitos à mão no Uberaba, Curitiba - PR. Entregas em Curitiba e Região Metropolitana.">
+  <meta name="keywords" content="Yaemi, Yaemi Doces, cookies recheados Curitiba, brigadeiro gourmet Curitiba, bolos caseiros, doces artesanais, cookies Uberaba Curitiba">
+  <meta name="theme-color" content="#4A2E1B">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Yaemi Cookies e Doces Artesanais">
+  <meta property="og:description" content="🍫 Deixando seu mundo mais doce 💕 Cookies recheados, brigadeiros gourmet e bolos caseiros em Curitiba.">
+  <meta property="og:image" content="assets/cookie-nutella.jpg">
+  <meta property="og:type" content="website">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/jpeg" href="assets/logo-perfil.jpg">
+
+  <!-- Google Fonts: Bebas Neue (Headline Condensed), Inter (UI & Body), Jost (Geometric Tracking), Caveat (Script Accent) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Caveat:wght@400..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Jost:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="canvas-cream">
+
+  <!-- Top Announcement Bar -->
+  <div class="announcement-bar">
+    <div class="announcement-content">
+      <span class="announcement-dot"></span>
+      <span class="announcement-text">COOKIES RECHEADOS • BRIGADEIROS GOURMET • BOLOS CASEIROS</span>
+      <span class="announcement-dot"></span>
+      <span class="announcement-text hide-mobile">🛵 ENTREGAS EM CURITIBA E REGIÃO METROPOLITANA</span>
+    </div>
+  </div>
+
+  <!-- Persistent Site Navigation -->
+  <header class="site-header" id="header">
+    <div class="nav-container">
+      <!-- Logo Left -->
+      <a href="#hero" class="brand-logo" aria-label="Yaemi Cookies e Doces - Início">
+        <img src="assets/logo-yaemi.png" alt="Yaemi Cookies e Doces Artesanais" class="logo-img" />
+      </a>
+
+      <!-- Nav Items Center -->
+      <nav class="nav-links" id="navMenu">
+        <a href="#sabores" class="nav-link">O CARDÁPIO</a>
+        <a href="#bastidores" class="nav-link">BASTIDORES &amp; VÍDEO</a>
+        <a href="#caderno" class="nav-link">NOSSA HISTÓRIA</a>
+        <a href="#box-builder" class="nav-link">MONTE SUA CAIXA</a>
+        <a href="#depoimentos" class="nav-link">AVALIAÇÕES</a>
+      </nav>
+
+      <!-- CTA & Cart Right -->
+      <div class="nav-actions">
+        <!-- Floating Cart Trigger -->
+        <button type="button" class="cart-trigger-btn" id="openCartBtn" aria-label="Abrir Sacola de Pedidos">
+          <svg class="cart-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4Z"/><path d="M3 6h18"/><path d="M16 10a4 4 0 0 1-8 0"/>
+          </svg>
+          <span class="cart-count-badge" id="cartCountBadge">0</span>
+        </button>
+
+        <a href="#box-builder" class="btn btn-filled-indigo nav-cta-btn">
+          PEDIR AGORA
+        </a>
+
+        <!-- Mobile Menu Toggle -->
+        <button class="mobile-toggle-btn" id="mobileMenuBtn" aria-label="Abrir Menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer Menu -->
+  <div class="mobile-drawer" id="mobileDrawer">
+    <div class="mobile-drawer-inner">
+      <nav class="mobile-nav-links">
+        <a href="#sabores" class="mobile-nav-link">O CARDÁPIO</a>
+        <a href="#bastidores" class="mobile-nav-link">BASTIDORES &amp; VÍDEO</a>
+        <a href="#caderno" class="mobile-nav-link">NOSSA HISTÓRIA</a>
+        <a href="#box-builder" class="mobile-nav-link">MONTE SUA CAIXA</a>
+        <a href="#depoimentos" class="mobile-nav-link">AVALIAÇÕES</a>
+        <a href="#faq" class="mobile-nav-link">DÚVIDAS &amp; ENTREGAS</a>
+      </nav>
+      <div class="mobile-drawer-footer">
+        <a href="#box-builder" class="btn btn-filled-indigo full-width">MONTAR PEDIDO</a>
+      </div>
+    </div>
+  </div>
+
+  <main>
+    <!-- HERO SECTION WITH ORGANIC WAVY SPLIT -->
+    <section class="hero-section" id="hero">
+      <!-- Decorative Botanical Line Art Overlays -->
+      <svg class="botanical-bg botanical-top-left" viewBox="0 0 200 200" fill="none" aria-hidden="true">
+        <path d="M20,180 C40,140 30,90 70,60 C90,45 120,40 150,20" stroke="var(--color-deep-indigo)" stroke-width="1.2" stroke-dasharray="1 0"/>
+        <path d="M70,60 C60,40 45,35 30,40 C45,55 55,60 70,60 Z" stroke="var(--color-deep-indigo)" stroke-width="1.2"/>
+        <path d="M90,95 C110,85 130,95 140,110 C125,115 105,108 90,95 Z" stroke="var(--color-sky-blue)" stroke-width="1.2"/>
+        <path d="M45,130 C30,120 20,105 25,90 C35,105 45,115 45,130 Z" stroke="var(--color-deep-indigo)" stroke-width="1.2"/>
+        <circle cx="150" cy="20" r="3" fill="var(--color-honey-gold)"/>
+      </svg>
+
+      <svg class="botanical-bg botanical-bottom-right" viewBox="0 0 260 260" fill="none" aria-hidden="true">
+        <path d="M40,240 C100,210 120,150 180,100 C210,75 230,50 250,20" stroke="var(--color-deep-indigo)" stroke-width="1.3"/>
+        <path d="M120,150 C140,130 160,140 165,160 C145,165 130,160 120,150 Z" stroke="var(--color-sky-blue)" stroke-width="1.2"/>
+        <path d="M180,100 C185,75 205,70 215,85 C205,95 195,100 180,100 Z" stroke="var(--color-deep-indigo)" stroke-width="1.2"/>
+        <path d="M80,190 C60,180 55,160 65,150 C75,165 80,175 80,190 Z" stroke="var(--color-sky-blue)" stroke-width="1.2"/>
+      </svg>
+
+      <div class="hero-container">
+        <!-- Hero Left Column: Editorial Condensed Headlines & Handwritten Accent -->
+        <div class="hero-content">
+          <div class="eyebrow-tag reveal-fade">
+            <svg class="tag-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/>
+            </svg>
+            <span>UBERABA • CURITIBA - PR • FEITO À MÃO</span>
+          </div>
+
+          <h1 class="hero-title reveal-up delay-1">
+            DEIXANDO SEU MUNDO<br>
+            <span class="title-highlight">MAIS DOCE.</span>
+          </h1>
+
+          <p class="hero-script-tagline reveal-up delay-2">
+            “Cookies recheados, brigadeiros gourmet e bolos caseiros — feitos com carinho, fornada por fornada.”
+          </p>
+
+          <p class="hero-description reveal-up delay-3">
+            Na Yaemi cada doce é preparado artesanalmente, com ingredientes selecionados e recheio generoso de verdade. Do nosso forno direto pra sua casa, com entrega em Curitiba e Região Metropolitana.
+          </p>
+
+          <div class="hero-cta-group reveal-up delay-4">
+            <a href="#box-builder" class="btn btn-filled-indigo">
+              <span>MONTAR MINHA CAIXA</span>
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M5 12h14"/><path d="m12 5 7 7-7 7"/>
+              </svg>
+            </a>
+
+            <a href="#bastidores" class="btn btn-outline-orange">
+              <span>VER OS BASTIDORES</span>
+              <svg class="btn-arrow" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="m9 18 6-6-6-6"/>
+              </svg>
+            </a>
+          </div>
+
+          <!-- Trust Badges Strip -->
+          <div class="hero-proof-strip reveal-up delay-5">
+            <div class="proof-item">
+              <span class="proof-number">1.500+</span>
+              <span class="proof-label">SEGUIDORES NO INSTA</span>
+            </div>
+            <div class="proof-separator"></div>
+            <div class="proof-item">
+              <span class="proof-number">CWB</span>
+              <span class="proof-label">E REGIÃO METROPOLITANA</span>
+            </div>
+            <div class="proof-separator"></div>
+            <div class="proof-item">
+              <span class="proof-number">100%</span>
+              <span class="proof-label">ARTESANAL</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Hero Right Column: Organic SVG Blobs & Floating Cookie Showcase -->
+        <div class="hero-visual-wrapper reveal-scale delay-2">
+          <!-- Flowing Organic SVG Blob Background (Pistachio over Light Pistachio) -->
+          <div class="organic-blob-stack" aria-hidden="true">
+            <svg class="blob-shape blob-honey" viewBox="0 0 600 600" fill="none">
+              <path d="M480,180 C540,260 520,380 460,450 C400,520 280,540 190,490 C100,440 60,320 90,220 C120,120 240,60 350,70 C420,80 440,130 480,180 Z" fill="var(--color-honey-gold)"/>
+            </svg>
+            <svg class="blob-shape blob-sage" viewBox="0 0 600 600" fill="none">
+              <path d="M420,490 C330,550 200,530 130,450 C60,370 70,240 140,160 C210,80 340,60 430,120 C520,180 560,310 510,400 C480,450 450,470 420,490 Z" fill="var(--color-mint-sage)"/>
+            </svg>
+            <svg class="blob-shape blob-orange-dot" viewBox="0 0 200 200" fill="none">
+              <path d="M160,70 C180,110 150,150 110,160 C70,170 30,140 40,90 C50,40 100,30 140,50 Z" fill="var(--color-deep-indigo)"/>
+            </svg>
+          </div>
+
+          <!-- Hero Main Cookie Display with Gentle Float Micro-Interaction -->
+          <div class="hero-cookie-stage">
+            <div class="cookie-card-hero">
+              <img src="assets/cookie-nutella.jpg" alt="Cookies recheados com Nutella da Yaemi Cookies e Doces" class="hero-cookie-img" id="heroCookieImg" />
+              <div class="cookie-ambient-glow"></div>
+            </div>
+
+            <!-- Floating Stamp 1: Artisan Seal -->
+            <div class="floating-badge badge-top-right">
+              <div class="badge-inner">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="m12 3-1.9 5.8a2 2 0 0 1-1.3 1.3L3 12l5.8 1.9a2 2 0 0 1 1.3 1.3L12 21l1.9-5.8a2 2 0 0 1 1.3-1.3L21 12l-5.8-1.9a2 2 0 0 1-1.3-1.3L12 3z"/>
+                </svg>
+                <span>FORNADA DO DIA</span>
+              </div>
+            </div>
+
+            <!-- Floating Stamp 2: Filling Indicator -->
+            <div class="floating-badge badge-bottom-left">
+              <div class="badge-inner-pill">
+                <span class="badge-dot"></span>
+                <strong>Recheio generoso de verdade</strong>
+              </div>
+            </div>
+
+            <!-- Secondary Mini Teaser -->
+            <div class="floating-mini-card" id="miniTeaser">
+              <img src="assets/cookie-red-velvet.jpg" alt="Cookie Red Velvet com chocolate branco" class="mini-card-thumb">
+              <div class="mini-card-text">
+                <span class="mini-tag">QUEM AMA, PEDE</span>
+                <span class="mini-name">Red Velvet</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Minimal Scroll Indicator -->
+      <a href="#bastidores" class="scroll-indicator" aria-label="Rolar para a próxima seção">
+        <span class="scroll-label">EXPLORAR</span>
+        <div class="scroll-circle">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="m6 9 6 6 6-6"/>
+          </svg>
+        </div>
+      </a>
+
+      <!-- Organic Wavy Section Divider: Cream Paper into White Canvas -->
+      <div class="wave-divider wave-cream-to-white" aria-hidden="true">
+        <svg viewBox="0 0 1440 140" fill="none" preserveAspectRatio="none">
+          <path d="M0,40 C280,120 480,-10 760,60 C1040,130 1280,30 1440,80 L1440,140 L0,140 Z" fill="#ffffff"/>
+        </svg>
+      </div>
+    </section>
+
+    <!-- SECTION 2: BASTIDORES & VÍDEO -->
+    <section class="video-section" id="bastidores">
+      <div class="section-container">
+        <div class="section-header text-center reveal-up">
+          <span class="eyebrow-label">BASTIDORES DA COZINHA YAEMI</span>
+          <h2 class="section-heading">DO NOSSO FORNO PRA SUA MÃO</h2>
+          <p class="section-script">“Da massa batida na hora até a primeira mordida — veja como tudo acontece por aqui.”</p>
+        </div>
+
+        <div class="video-showcase-grid">
+          <!-- Video Frame with Bespoke Controls & Ambient Lighting -->
+          <div class="video-player-container reveal-scale delay-1">
+            <div class="video-decorative-blob" aria-hidden="true"></div>
+
+            <div class="video-frame">
+              <video 
+                id="cookieVideo" 
+                class="cookie-main-video" 
+                src="assets/yaemi-video.mp4" 
+                loop 
+                muted 
+                playsinline 
+                preload="metadata"
+                poster="assets/video-poster.jpg"
+              >
+                Seu navegador não suporta vídeos HTML5.
+              </video>
+
+              <!-- Video Custom Overlay Controls -->
+              <div class="video-overlay-glass" id="videoOverlay">
+                <button class="video-play-btn" id="playToggleBtn" aria-label="Tocar ou pausar vídeo">
+                  <svg class="play-icon" id="playIcon" width="28" height="28" viewBox="0 0 24 24" fill="currentColor">
+                    <polygon points="5 3 19 12 5 21 5 3"/>
+                  </svg>
+                  <svg class="pause-icon hidden" id="pauseIcon" width="28" height="28" viewBox="0 0 24 24" fill="currentColor">
+                    <rect x="6" y="4" width="4" height="16"/>
+                    <rect x="14" y="4" width="4" height="16"/>
+                  </svg>
+                </button>
+
+                <div class="video-controls-bottom">
+                  <div class="video-status-tag">
+                    <span class="live-dot"></span>
+                    <span>GRAVADO NA NOSSA COZINHA</span>
+                  </div>
+
+                  <div class="video-btn-actions">
+                    <button class="sound-toggle-btn" id="soundToggleBtn" aria-label="Ativar ou desativar som">
+                      <svg class="muted-icon" id="soundOffIcon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M11 5 6 9H2v6h4l5 4V5Z"/><line x1="23" y1="9" x2="17" y2="15"/><line x1="17" y1="9" x2="23" y2="15"/>
+                      </svg>
+                      <svg class="unmuted-icon hidden" id="soundOnIcon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M11 5 6 9H2v6h4l5 4V5Z"/><path d="M15.54 8.46a5 5 0 0 1 0 7.07"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14"/>
+                      </svg>
+                    </button>
+
+                    <button class="fullscreen-btn" id="fullscreenBtn" aria-label="Tela cheia">
+                      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M8 3H5a2 2 0 0 0-2 2v3m18 0V5a2 2 0 0 0-2-2h-3m0 18h3a2 2 0 0 0 2-2v-3M3 16v3a2 2 0 0 0 2 2h3"/>
+                      </svg>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Sensory Details Side Column -->
+          <div class="video-info-column">
+            <div class="sensory-card reveal-up delay-1">
+              <div class="sensory-icon-wrap" style="background-color: rgba(209, 228, 173, 0.55);">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="var(--color-deep-indigo)" stroke-width="2">
+                  <path d="M18 11V6a2 2 0 0 0-2-2a2 2 0 0 0-2 2"/><path d="M14 10V4a2 2 0 0 0-2-2a2 2 0 0 0-2 2v2"/><path d="M10 10.5V6a2 2 0 0 0-2-2a2 2 0 0 0-2 2v8"/><path d="M18 8a2 2 0 1 1 4 0v6a8 8 0 0 1-8 8h-2c-2.8 0-4.5-.86-5.99-2.34l-3.6-3.6a2 2 0 0 1 2.83-2.82L7 15"/>
+                </svg>
+              </div>
+              <div class="sensory-text">
+                <h3 class="sensory-title">MASSA FEITA À MÃO</h3>
+                <p>Cada porção é batida, pesada e modelada artesanalmente na nossa cozinha, em pequenas fornadas, para garantir o ponto certinho.</p>
+              </div>
+            </div>
+
+            <div class="sensory-card reveal-up delay-2">
+              <div class="sensory-icon-wrap" style="background-color: rgba(74, 46, 27, 0.12);">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="var(--color-deep-indigo)" stroke-width="2">
+                  <path d="M12 20a8 8 0 1 0 0-16 8 8 0 0 0 0 16Z"/><path d="M12 14a2 2 0 1 0 0-4 2 2 0 0 0 0 4Z"/>
+                </svg>
+              </div>
+              <div class="sensory-text">
+                <h3 class="sensory-title">RECHEIO SEM ECONOMIA</h3>
+                <p>Cookies altos, cheios de gotas de chocolate e com recheio cremoso de verdade — daqueles que você sente em cada mordida.</p>
+              </div>
+            </div>
+
+            <div class="sensory-card reveal-up delay-3">
+              <div class="sensory-icon-wrap" style="background-color: rgba(209, 228, 173, 0.55);">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="var(--color-deep-indigo)" stroke-width="2">
+                  <path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"/>
+                </svg>
+              </div>
+              <div class="sensory-text">
+                <h3 class="sensory-title">FEITO COM CARINHO</h3>
+                <p>Um negócio de família, tocado a quatro mãos. Cada pedido é preparado como se fosse para alguém da nossa casa.</p>
+              </div>
+            </div>
+
+            <div class="sensory-action-box reveal-up delay-4">
+              <a href="#box-builder" class="btn btn-filled-indigo">QUERO EXPERIMENTAR</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Organic Wave Divider into Pistachio Section -->
+      <div class="wave-divider wave-white-to-orange" aria-hidden="true">
+        <svg viewBox="0 0 1440 160" fill="none" preserveAspectRatio="none">
+          <path d="M0,60 C320,140 600,-20 920,80 C1180,150 1340,40 1440,90 L1440,160 L0,160 Z" fill="var(--surface-burnt-orange)"/>
+        </svg>
+      </div>
+    </section>
+
+    <!-- SECTION 3: THE MENU / FLAVORS (FULL-BLEED PISTACHIO) -->
+    <section class="menu-section surface-orange" id="sabores">
+      <svg class="botanical-bg botanical-orange-left" viewBox="0 0 300 300" fill="none" aria-hidden="true">
+        <path d="M20,280 C80,220 140,190 200,100 C240,40 270,10 290,0" stroke="#ffffff" stroke-opacity="0.6" stroke-width="1.4"/>
+        <path d="M140,190 C120,160 100,165 90,190 C110,200 130,200 140,190 Z" stroke="#ffffff" stroke-opacity="0.6" stroke-width="1.3"/>
+        <path d="M200,100 C220,90 230,110 215,130 C195,120 195,105 200,100 Z" stroke="#ffffff" stroke-opacity="0.6" stroke-width="1.3"/>
+      </svg>
+
+      <div class="section-container">
+        <div class="section-header text-center reveal-up">
+          <div class="eyebrow-label eyebrow-on-orange">OS QUERIDINHOS DA CASA</div>
+          <h2 class="section-heading heading-on-orange">O CARDÁPIO YAEMI</h2>
+          <p class="section-script script-on-orange">“Cookies recheados, brigadeiros gourmet e bolos caseiros pra adoçar qualquer dia.”</p>
+        </div>
+
+        <!-- Filter Tags -->
+        <div class="filter-tabs-wrapper reveal-fade">
+          <div class="filter-tabs" role="tablist">
+            <button class="filter-tab active" data-filter="all">TODOS</button>
+            <button class="filter-tab" data-filter="recheado">COOKIES RECHEADOS</button>
+            <button class="filter-tab" data-filter="classico">CLÁSSICOS</button>
+            <button class="filter-tab" data-filter="boxes">CAIXAS</button>
+            <button class="filter-tab" data-filter="doces">DOCES &amp; BOLOS</button>
+          </div>
+        </div>
+
+        <!-- Product Cards Grid -->
+        <div class="cookie-cards-grid" id="cardsGrid">
+          
+          <!-- Card 1: Tradicional -->
+          <article class="recipe-card reveal-card" data-category="classico" data-id="cookie-tradicional">
+            <div class="recipe-card-media">
+              <img src="assets/cookie-tradicional.jpg" alt="Cookie tradicional com gotas de chocolate ao leite" class="recipe-card-img" loading="lazy">
+              <div class="card-badge-top">
+                <span class="badge-time">RECEITA DA CASA</span>
+                <span class="badge-status">CLÁSSICO</span>
+              </div>
+            </div>
+            <div class="recipe-card-body">
+              <div class="card-meta">
+                <span class="card-weight">GOTAS DE CHOCOLATE</span>
+                <span class="card-stars">★★★★★</span>
+              </div>
+              <h3 class="recipe-title">TRADICIONAL</h3>
+              <p class="recipe-desc">
+                Massa amanteigada coberta de gotas de chocolate. Borda douradinha e crocante, centro macio e cheio de chocolate.
+              </p>
+              <div class="recipe-card-footer">
+                <div class="price-tag">
+                  <span class="price-currency">R$</span>
+                  <span class="price-value">15,00</span>
+                </div>
+                <div class="card-actions">
+                  <button class="btn-quick-view" data-modal="modal-cookie-tradicional" aria-label="Ver detalhes de Tradicional">
+                    DETALHES
+                  </button>
+                  <button class="btn-add-cart" data-name="Tradicional" data-price="15.00" data-img="assets/cookie-tradicional.jpg">
+                    + PEDIR
+                  </button>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <!-- Card 2: Nutella -->
+          <article class="recipe-card reveal-card delay-1" data-category="recheado" data-id="cookie-nutella">
+            <div class="recipe-card-media">
+              <img src="assets/cookie-nutella.jpg" alt="Cookie recheado com Nutella e açúcar de confeiteiro" class="recipe-card-img" loading="lazy">
+              <div class="card-badge-top">
+                <span class="badge-time">RECHEADO</span>
+                <span class="badge-status highlight-gold">MAIS PEDIDO</span>
+              </div>
+            </div>
+            <div class="recipe-card-body">
+              <div class="card-meta">
+                <span class="card-weight">CREME DE AVELÃ</span>
+                <span class="card-stars">★★★★★</span>
+              </div>
+              <h3 class="recipe-title">NUTELLA</h3>
+              <p class="recipe-desc">
+                Cookie com gotas de chocolate, recheado generosamente com Nutella e finalizado com açúcar de confeiteiro.
+              </p>
+              <div class="recipe-card-footer">
+                <div class="price-tag">
+                  <span class="price-currency">R$</span>
+                  <span class="price-value">19,00</span>
+                </div>
+                <div class="card-actions">
+                  <button class="btn-quick-view" data-modal="modal-cookie-nutella" aria-label="Ver detalhes de Nutella">
+                    DETALHES
+                  </button>
+                  <button class="btn-add-cart" data-name="Nutella" data-price="19.00" data-img="assets/cookie-nutella.jpg">
+                    + PEDIR
+                  </button>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <!-- Card 3: Red Velvet -->
+          <article class="recipe-card reveal-card delay-2" data-category="recheado" data-id="cookie-red-velvet">
+            <div class="recipe-card-media">
+              <img src="assets/cookie-red-velvet.jpg" alt="Cookie Red Velvet com cobertura de chocolate branco" class="recipe-card-img" loading="lazy">
+              <div class="card-badge-top">
+                <span class="badge-time">RECHEADO</span>
+                <span class="badge-status">ESPECIAL</span>
+              </div>
+            </div>
+            <div class="recipe-card-body">
+              <div class="card-meta">
+                <span class="card-weight">CHOCOLATE BRANCO</span>
+                <span class="card-stars">★★★★★</span>
+              </div>
+              <h3 class="recipe-title">RED VELVET</h3>
+              <p class="recipe-desc">
+                Massa red velvet aveludada com pedaços de chocolate branco e cobertura cremosa de chocolate branco derretido.
+              </p>
+              <div class="recipe-card-footer">
+                <div class="price-tag">
+                  <span class="price-currency">R$</span>
+                  <span class="price-value">21,00</span>
+                </div>
+                <div class="card-actions">
+                  <button class="btn-quick-view" data-modal="modal-cookie-red-velvet" aria-label="Ver detalhes de Red Velvet">
+                    DETALHES
+                  </button>
+                  <button class="btn-add-cart" data-name="Red Velvet" data-price="21.00" data-img="assets/cookie-red-velvet.jpg">
+                    + PEDIR
+                  </button>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <!-- Card 4: Box Yaemi -->
+          <article class="recipe-card reveal-card delay-3" data-category="boxes" data-id="cookie-box-4">
+            <div class="recipe-card-media">
+              <img src="assets/cookie-gotas-box.jpg" alt="Cookie artesanal coberto de gotas de chocolate" class="recipe-card-img" loading="lazy">
+              <div class="card-badge-top">
+                <span class="badge-time">COMBO 4 UNID</span>
+                <span class="badge-status highlight-gold">PRA PRESENTEAR</span>
+              </div>
+            </div>
+            <div class="recipe-card-body">
+              <div class="card-meta">
+                <span class="card-weight">4 COOKIES À ESCOLHA</span>
+                <span class="card-stars">★★★★★</span>
+              </div>
+              <h3 class="recipe-title">BOX YAEMI (4X)</h3>
+              <p class="recipe-desc">
+                Caixa com 4 cookies à sua escolha (Tradicional, Nutella ou Red Velvet). Perfeita pra dividir — ou não!
+              </p>
+              <div class="recipe-card-footer">
+                <div class="price-tag">
+                  <span class="price-currency">R$</span>
+                  <span class="price-value">72,00</span>
+                </div>
+                <div class="card-actions">
+                  <button class="btn-quick-view" data-modal="modal-cookie-box-4" aria-label="Ver detalhes da Box Yaemi">
+                    DETALHES
+                  </button>
+                  <button class="btn-add-cart" data-name="Box Yaemi (4x)" data-price="72.00" data-img="assets/cookie-gotas-box.jpg">
+                    + PEDIR
+                  </button>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <!-- Card 5: Brigadeiros Gourmet & Bolos Caseiros (sob encomenda) -->
+          <article class="recipe-card reveal-card delay-4" data-category="doces" data-id="doces-encomenda">
+            <div class="recipe-card-media brand-media">
+              <img src="assets/logo-yaemi.png" alt="Yaemi Cookies e Doces Artesanais" class="recipe-card-img brand-media-img" loading="lazy">
+              <div class="card-badge-top">
+                <span class="badge-time">SOB ENCOMENDA</span>
+                <span class="badge-status">FESTAS</span>
+              </div>
+            </div>
+            <div class="recipe-card-body">
+              <div class="card-meta">
+                <span class="card-weight">ANIVERSÁRIOS &amp; EVENTOS</span>
+                <span class="card-stars">★★★★★</span>
+              </div>
+              <h3 class="recipe-title">BRIGADEIROS &amp; BOLOS</h3>
+              <p class="recipe-desc">
+                Brigadeiros gourmet e bolos caseiros feitos sob encomenda para aniversários, festas, presentes e datas especiais.
+              </p>
+              <div class="recipe-card-footer">
+                <div class="price-tag">
+                  <span class="price-value price-consult">CONSULTE</span>
+                </div>
+                <div class="card-actions">
+                  <button class="btn-quick-view" data-modal="modal-doces-encomenda" aria-label="Ver detalhes de Brigadeiros e Bolos">
+                    DETALHES
+                  </button>
+                  <a class="btn-add-cart js-whatsapp-link" data-wa-text="Olá Yaemi! Gostaria de fazer um orçamento de brigadeiros gourmet / bolo caseiro." href="#" target="_blank" rel="noopener noreferrer">
+                    ORÇAR
+                  </a>
+                </div>
+              </div>
+            </div>
+          </article>
+
+        </div>
+
+        <!-- Section Bottom CTA in Pill with Arrow -->
+        <div class="section-cta-center reveal-up delay-2">
+          <a href="#box-builder" class="btn btn-filled-indigo">
+            <span>MONTAR COMBINAÇÃO PERSONALIZADA</span>
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M5 12h14"/><path d="m12 5 7 7-7 7"/>
+            </svg>
+          </a>
+        </div>
+      </div>
+
+      <!-- Organic Wave Divider: Pistachio into Cream Paper Canvas -->
+      <div class="wave-divider wave-orange-to-cream" aria-hidden="true">
+        <svg viewBox="0 0 1440 160" fill="none" preserveAspectRatio="none">
+          <path d="M0,80 C360,0 720,130 1080,40 C1240,0 1380,60 1440,70 L1440,160 L0,160 Z" fill="var(--color-cream-paper)"/>
+        </svg>
+      </div>
+    </section>
+
+    <!-- SECTION 4: NOSSA HISTÓRIA (SKETCHBOOK JOURNAL) -->
+    <section class="journal-section" id="caderno">
+      <svg class="botanical-bg botanical-journal-top" viewBox="0 0 240 240" fill="none" aria-hidden="true">
+        <path d="M10,10 C40,70 90,100 160,120 C200,130 220,160 230,220" stroke="var(--color-deep-indigo)" stroke-width="1.2"/>
+        <path d="M90,100 C75,115 70,135 85,145 C100,140 105,120 90,100 Z" stroke="var(--color-sky-blue)" stroke-width="1.2"/>
+        <path d="M160,120 C180,110 190,130 180,145 C165,140 160,130 160,120 Z" stroke="var(--color-deep-indigo)" stroke-width="1.2"/>
+      </svg>
+
+      <div class="section-container">
+        <div class="journal-header-split reveal-up">
+          <div class="journal-header-left">
+            <span class="eyebrow-label">NOSSA HISTÓRIA</span>
+            <h2 class="section-heading">A COZINHA DA YAEMI</h2>
+            <p class="journal-lead">
+              A Yaemi nasceu de uma paixão simples: fazer doces que deixam o dia de alguém mais feliz. Aqui no Uberaba, em Curitiba, cada fornada sai das nossas mãos com o mesmo cuidado — da escolha dos ingredientes até a embalagem que chega na sua porta.
+            </p>
+          </div>
+          <div class="journal-header-right">
+            <div class="sketchbook-quote-box">
+              <img src="assets/yaemi-casal.jpg" alt="O casal por trás da Yaemi Cookies e Doces" class="journal-team-photo" loading="lazy">
+              <span class="quote-symbol">“</span>
+              <p class="quote-text">
+                Deixando seu mundo mais doce. 💕
+              </p>
+              <span class="quote-author">— Equipe Yaemi Cookies e Doces Artesanais</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- 4 Step Journal Cards Grid -->
+        <div class="journal-steps-grid">
+          <div class="journal-step-card reveal-card">
+            <div class="step-num-pill">PASSO 01</div>
+            <div class="step-icon-svg">
+              <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="var(--color-deep-indigo)" stroke-width="1.5">
+                <path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/>
+              </svg>
+            </div>
+            <h3 class="step-title">INGREDIENTES SELECIONADOS</h3>
+            <p class="step-body">
+              Manteiga, chocolate de qualidade e recheios cremosos. A base de um doce gostoso é escolher bem o que vai dentro dele.
+            </p>
+            <div class="step-botanical-tag">ESCOLHIDOS A DEDO</div>
+          </div>
+
+          <div class="journal-step-card reveal-card delay-1">
+            <div class="step-num-pill">PASSO 02</div>
+            <div class="step-icon-svg">
+              <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="var(--color-deep-indigo)" stroke-width="1.5">
+                <circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/>
+              </svg>
+            </div>
+            <h3 class="step-title">MASSA NO PONTO CERTO</h3>
+            <p class="step-body">
+              A massa é batida, pesada e modelada à mão, porção por porção, para cada cookie sair alto, uniforme e macio por dentro.
+            </p>
+            <div class="step-botanical-tag">FEITO À MÃO</div>
+          </div>
+
+          <div class="journal-step-card reveal-card delay-2">
+            <div class="step-num-pill">PASSO 03</div>
+            <div class="step-icon-svg">
+              <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="var(--color-deep-indigo)" stroke-width="1.5">
+                <path d="M12 21a9 9 0 0 0 9-9c0-4.97-4.03-9-9-9s-9 4.03-9 9a9 9 0 0 0 9 9Z"/><path d="M12 7v5l3 3"/>
+              </svg>
+            </div>
+            <h3 class="step-title">RECHEIO GENEROSO</h3>
+            <p class="step-body">
+              Aqui recheio não é detalhe, é protagonista. Nutella, chocolate branco e muito mais — do jeito que cookie recheado tem que ser.
+            </p>
+            <div class="step-botanical-tag">SEM ECONOMIA</div>
+          </div>
+
+          <div class="journal-step-card reveal-card delay-3">
+            <div class="step-num-pill">PASSO 04</div>
+            <div class="step-icon-svg">
+              <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="var(--color-deep-indigo)" stroke-width="1.5">
+                <circle cx="5.5" cy="17.5" r="3.5"/><circle cx="18.5" cy="17.5" r="3.5"/><path d="M15 6h2l3 7.5"/><path d="M5.5 17.5 9 10h6l3.5 7.5"/><path d="M9 10 7.5 6H5"/>
+              </svg>
+            </div>
+            <h3 class="step-title">FORNO &amp; ENTREGA</h3>
+            <p class="step-body">
+              Assados em pequenas fornadas e embalados com carinho. Entregamos em Curitiba e Região Metropolitana direto na sua casa.
+            </p>
+            <div class="step-botanical-tag">🛵 CWB &amp; REGIÃO</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 5: INTERACTIVE BOX BUILDER & DIRECT WHATSAPP ORDER -->
+    <section class="box-builder-section" id="box-builder">
+      <div class="section-container">
+        <div class="section-header text-center reveal-up">
+          <span class="eyebrow-label">EXPERIÊNCIA INTERATIVA</span>
+          <h2 class="section-heading">MONTE SUA CAIXA YAEMI</h2>
+          <p class="section-script">“Escolha seus cookies preferidos, veja o total e envie o pedido prontinho pro nosso WhatsApp!”</p>
+        </div>
+
+        <div class="builder-layout">
+          <!-- Step 1: Escolher Tamanho da Caixa -->
+          <div class="builder-box-options reveal-up">
+            <h3 class="builder-subtitle">1. ESCOLHA O TAMANHO DA SUA CAIXA</h3>
+            <div class="box-sizes-grid">
+              <div class="box-size-card active" data-capacity="2" data-box-name="Caixa Dupla (2 Cookies)" data-discount="0">
+                <div class="size-badge">INDIVIDUAL / CASAL</div>
+                <div class="size-num">2</div>
+                <div class="size-title">COOKIES</div>
+                <div class="size-desc">Ideal para matar a vontade no café da tarde</div>
+              </div>
+
+              <div class="box-size-card" data-capacity="4" data-box-name="Caixa Família (4 Cookies)" data-discount="5">
+                <div class="size-badge highlight">MAIS POPULAR</div>
+                <div class="size-num">4</div>
+                <div class="size-title">COOKIES</div>
+                <div class="size-desc">A melhor seleção com economia de R$ 5,00</div>
+              </div>
+
+              <div class="box-size-card" data-capacity="6" data-box-name="Caixa Festa / Presente (6 Cookies)" data-discount="10">
+                <div class="size-badge">PRESENTÃO</div>
+                <div class="size-num">6</div>
+                <div class="size-title">COOKIES</div>
+                <div class="size-desc">Embalagem especial de presente com economia de R$ 10,00</div>
+              </div>
+            </div>
+
+            <!-- Step 2: Seleção de Cookies para a Caixa -->
+            <h3 class="builder-subtitle" style="margin-top: 36px;">2. ESCOLHA OS SABORES</h3>
+            <div class="builder-slots-tracker">
+              <span class="tracker-text">Sua caixa tem espaço para <strong id="maxSlotsText">2</strong> cookies. Selecionados: <strong id="currentSelectedText">0</strong>.</span>
+              <div class="slots-bar">
+                <div class="slots-bar-fill" id="slotsBarFill" style="width: 0%;"></div>
+              </div>
+            </div>
+
+            <div class="builder-flavor-selector-list">
+              <!-- Item 1: Tradicional -->
+              <div class="builder-flavor-row" data-flavor="Tradicional" data-price="15.00">
+                <img src="assets/cookie-tradicional.jpg" alt="Tradicional" class="row-thumb">
+                <div class="row-info">
+                  <h4 class="row-title">Tradicional</h4>
+                  <span class="row-notes">Massa amanteigada com muitas gotas de chocolate</span>
+                  <span class="row-price">R$ 15,00 / un</span>
+                </div>
+                <div class="row-qty-controls">
+                  <button class="qty-btn btn-minus" aria-label="Diminuir">-</button>
+                  <span class="qty-display">0</span>
+                  <button class="qty-btn btn-plus" aria-label="Aumentar">+</button>
+                </div>
+              </div>
+
+              <!-- Item 2: Nutella -->
+              <div class="builder-flavor-row" data-flavor="Nutella" data-price="19.00">
+                <img src="assets/cookie-nutella.jpg" alt="Nutella" class="row-thumb">
+                <div class="row-info">
+                  <h4 class="row-title">Nutella</h4>
+                  <span class="row-notes">Gotas de chocolate e recheio generoso de Nutella</span>
+                  <span class="row-price">R$ 19,00 / un</span>
+                </div>
+                <div class="row-qty-controls">
+                  <button class="qty-btn btn-minus" aria-label="Diminuir">-</button>
+                  <span class="qty-display">0</span>
+                  <button class="qty-btn btn-plus" aria-label="Aumentar">+</button>
+                </div>
+              </div>
+
+              <!-- Item 3: Red Velvet -->
+              <div class="builder-flavor-row" data-flavor="Red Velvet" data-price="21.00">
+                <img src="assets/cookie-red-velvet.jpg" alt="Red Velvet" class="row-thumb">
+                <div class="row-info">
+                  <h4 class="row-title">Red Velvet</h4>
+                  <span class="row-notes">Massa red velvet com cobertura de chocolate branco</span>
+                  <span class="row-price">R$ 21,00 / un</span>
+                </div>
+                <div class="row-qty-controls">
+                  <button class="qty-btn btn-minus" aria-label="Diminuir">-</button>
+                  <span class="qty-display">0</span>
+                  <button class="qty-btn btn-plus" aria-label="Aumentar">+</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Step 3: Resumo do Pedido & Envio para WhatsApp -->
+          <div class="builder-summary-col reveal-up delay-2">
+            <div class="summary-card">
+              <div class="summary-card-header">
+                <span class="summary-eyebrow">RESUMO DO PEDIDO</span>
+                <h3 class="summary-title" id="summaryBoxTitle">Caixa Dupla (2 Cookies)</h3>
+              </div>
+
+              <div class="summary-items-list" id="summaryItemsList">
+                <p class="empty-state-text">Nenhum cookie selecionado ainda.<br>Clique no <strong>+</strong> ao lado dos sabores para preencher sua caixa!</p>
+              </div>
+
+              <div class="summary-pricing">
+                <div class="price-line">
+                  <span>Subtotal</span>
+                  <span id="summarySubtotal">R$ 0,00</span>
+                </div>
+                <div class="price-line discount-line" id="discountLineRow" style="display: none;">
+                  <span>Desconto de Combo</span>
+                  <span id="summaryDiscount">- R$ 0,00</span>
+                </div>
+                <div class="price-divider"></div>
+                <div class="price-line total-line">
+                  <span>Total Previsto</span>
+                  <strong id="summaryTotal">R$ 0,00</strong>
+                </div>
+              </div>
+
+              <!-- Customer info inputs for automatic WhatsApp template -->
+              <div class="customer-inputs">
+                <div class="input-group">
+                  <label for="custName" class="input-label">SEU NOME:</label>
+                  <input type="text" id="custName" class="clean-input" placeholder="Ex: Lucas Silva">
+                </div>
+                <div class="input-group">
+                  <label for="custAddress" class="input-label">ENDEREÇO OU BAIRRO PARA ENTREGA:</label>
+                  <input type="text" id="custAddress" class="clean-input" placeholder="Ex: Rua das Flores, 123 - Uberaba, Curitiba">
+                </div>
+                <div class="input-group">
+                  <label for="custNotes" class="input-label">OBSERVAÇÕES (OPCIONAL):</label>
+                  <input type="text" id="custNotes" class="clean-input" placeholder="Ex: É para presente / entregar à tarde">
+                </div>
+              </div>
+
+              <button class="btn btn-filled-indigo full-width" id="btnSendWhatsapp" disabled>
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/>
+                </svg>
+                <span>PEDIR PELO WHATSAPP</span>
+              </button>
+
+              <p class="summary-guarantee-note">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+                </svg>
+                Atendimento rápido e humanizado • Pagamento via Pix ou Cartão
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 6: COMO AQUECER & DICA -->
+    <section class="reheat-section">
+      <div class="section-container">
+        <div class="reheat-card reveal-scale">
+          <div class="reheat-grid">
+            <div class="reheat-left">
+              <span class="eyebrow-label">DICA DA YAEMI</span>
+              <h2 class="reheat-title">COMO DEIXAR O RECHEIO DERRETENDO EM CASA</h2>
+              <p class="reheat-desc">
+                Os cookies Yaemi já chegam prontos para comer, mas se você ama aquele centro cremoso, quentinho, como se tivesse acabado de sair do forno, faça assim:
+              </p>
+              <div class="reheat-steps">
+                <div class="reheat-badge-step">
+                  <div class="badge-step-icon">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                      <rect width="20" height="15" x="2" y="4" rx="2"/><circle cx="12" cy="11.5" r="4.5"/><path d="M18 8h.01"/><path d="M18 12h.01"/><path d="M18 15h.01"/>
+                    </svg>
+                  </div>
+                  <div>
+                    <strong>MICRO-ONDAS: 15 A 20 SEGUNDOS</strong>
+                    <p>Potência média. O suficiente para o recheio derreter e a massa ficar macia de novo.</p>
+                  </div>
+                </div>
+
+                <div class="reheat-badge-step">
+                  <div class="badge-step-icon">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                      <path d="M8.5 14.5A2.5 2.5 0 0 0 11 12c0-1.38-.5-2-1-3-1.072-2.143-.224-4.054 2-6 .5 2.5 2 4.9 4 6.5 2 1.6 3 3.5 3 5.5a7 7 0 1 1-14 0c0-1.153.433-2.294 1-3a2.5 2.5 0 0 0 2.5 2.5z"/>
+                    </svg>
+                  </div>
+                  <div>
+                    <strong>AIR FRYER / FORNO: 3 A 4 MINUTOS (160°C)</strong>
+                    <p>O melhor método! Casquinha crocante por fora e recheio cremoso escorrendo por dentro.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="reheat-right">
+              <div class="reheat-img-wrap">
+                <img src="assets/cookie-red-velvet.jpg" alt="Cookie Red Velvet com chocolate branco derretido" class="reheat-img">
+                <div class="reheat-tag-float">
+                  <span>RESULTADO: RECHEIO CREMOSO</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 7: DEPOIMENTOS -->
+    <section class="reviews-section" id="depoimentos">
+      <div class="section-container">
+        <div class="section-header text-center reveal-up">
+          <span class="eyebrow-label">PROVADO &amp; APROVADO</span>
+          <h2 class="section-heading">QUEM PROVOU, NÃO TROCA</h2>
+          <p class="section-script">“O carinho de quem já adoçou o dia com a Yaemi.”</p>
+        </div>
+
+        <div class="reviews-grid">
+          <div class="review-card reveal-card">
+            <div class="review-stars">★★★★★</div>
+            <p class="review-text">
+              “O cookie de Nutella é surreal! Muito recheio, massa macia e chegou super bem embalado. Já virou o doce oficial aqui de casa.”
+            </p>
+            <div class="review-author">
+              <span class="author-name">CLIENTE YAEMI</span>
+              <span class="author-meta">Curitiba - PR</span>
+            </div>
+          </div>
+
+          <div class="review-card highlight-card reveal-card delay-1">
+            <div class="review-stars">★★★★★</div>
+            <p class="review-text">
+              “O Red Velvet com chocolate branco é uma obra de arte. Dá pra ver o capricho em cada detalhe, desde o sabor até a embalagem.”
+            </p>
+            <div class="review-author">
+              <span class="author-name">CLIENTE YAEMI</span>
+              <span class="author-meta">Pediu Caixa com 6 Unidades</span>
+            </div>
+          </div>
+
+          <div class="review-card reveal-card delay-2">
+            <div class="review-stars">★★★★★</div>
+            <p class="review-text">
+              “Encomendei brigadeiros para um aniversário e todo mundo amou. Atendimento atencioso e entrega certinha no horário combinado.”
+            </p>
+            <div class="review-author">
+              <span class="author-name">CLIENTE YAEMI</span>
+              <span class="author-meta">Região Metropolitana de Curitiba</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 8: FAQ & DÚVIDAS -->
+    <section class="faq-section" id="faq">
+      <div class="section-container">
+        <div class="section-header text-center reveal-up">
+          <span class="eyebrow-label">DÚVIDAS FREQUENTES</span>
+          <h2 class="section-heading">TUDO O QUE VOCÊ PRECISA SABER</h2>
+        </div>
+
+        <div class="faq-accordion-wrap">
+          <details class="faq-item reveal-up">
+            <summary class="faq-question">
+              <span>Vocês entregam em quais regiões?</span>
+              <span class="faq-icon">+</span>
+            </summary>
+            <div class="faq-answer">
+              <p>Estamos no Uberaba, em Curitiba - PR, e fazemos entregas em toda Curitiba e Região Metropolitana. A taxa de entrega é calculada de acordo com o seu endereço — é só chamar no WhatsApp ou no Direct do Instagram.</p>
+            </div>
+          </details>
+
+          <details class="faq-item reveal-up delay-1">
+            <summary class="faq-question">
+              <span>Quanto tempo dura o cookie e como conservar?</span>
+              <span class="faq-icon">+</span>
+            </summary>
+            <div class="faq-answer">
+              <p>Mantenha os cookies em recipiente bem fechado, em temperatura ambiente, e consuma em poucos dias para aproveitar todo o frescor. Para ficar com cara de recém-assado, aqueça rapidinho no micro-ondas, forno ou air fryer.</p>
+            </div>
+          </details>
+
+          <details class="faq-item reveal-up delay-2">
+            <summary class="faq-question">
+              <span>Vocês fazem brigadeiros e bolos sob encomenda?</span>
+              <span class="faq-icon">+</span>
+            </summary>
+            <div class="faq-answer">
+              <p>Sim! Além dos cookies recheados, fazemos brigadeiros gourmet e bolos caseiros sob encomenda para aniversários, festas e presentes. Chame a gente com a data e a quantidade para montarmos seu orçamento.</p>
+            </div>
+          </details>
+
+          <details class="faq-item reveal-up delay-3">
+            <summary class="faq-question">
+              <span>Aceitam encomendas para eventos e empresas?</span>
+              <span class="faq-icon">+</span>
+            </summary>
+            <div class="faq-answer">
+              <p>Aceitamos! Montamos caixas personalizadas para lembrancinhas, datas comemorativas e eventos corporativos. Fale com a gente no WhatsApp para um orçamento especial.</p>
+            </div>
+          </details>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER: CHOCOLATE HIGH-CONTRAST EDITORIAL -->
+  <footer class="site-footer">
+    <div class="wave-divider wave-cream-to-indigo" aria-hidden="true">
+      <svg viewBox="0 0 1440 140" fill="none" preserveAspectRatio="none">
+        <path d="M0,60 C420,130 840,-10 1200,80 C1340,110 1410,70 1440,60 L1440,140 L0,140 Z" fill="var(--color-deep-indigo)"/>
+      </svg>
+    </div>
+
+    <div class="footer-inner">
+      <div class="footer-grid">
+        <div class="footer-col brand-col">
+          <div class="footer-logo-wrap">
+            <img src="assets/logo-yaemi.png" alt="Yaemi Cookies e Doces Artesanais" class="footer-logo-img">
+          </div>
+          <p class="footer-brand-desc">
+            🍫 Deixando seu mundo mais doce 💕<br>
+            Cookies recheados, brigadeiros gourmet e bolos caseiros feitos à mão no Uberaba, Curitiba - PR.
+          </p>
+          <div class="footer-social-links">
+            <a href="https://www.instagram.com/yaemi.doces/" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="Instagram da Yaemi Doces">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <rect width="20" height="20" x="2" y="2" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/>
+              </svg>
+            </a>
+            <a href="#" target="_blank" rel="noopener noreferrer" class="social-link js-whatsapp-link" data-wa-text="Olá Yaemi! Vim pelo site e gostaria de fazer um pedido." aria-label="WhatsApp da Yaemi Doces">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/>
+              </svg>
+            </a>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h4 class="footer-title">NAVEGAÇÃO</h4>
+          <ul class="footer-nav-list">
+            <li><a href="#sabores">O Cardápio</a></li>
+            <li><a href="#bastidores">Vídeo &amp; Bastidores</a></li>
+            <li><a href="#caderno">Nossa História</a></li>
+            <li><a href="#box-builder">Monte Sua Caixa</a></li>
+            <li><a href="#faq">Dúvidas Frequentes</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4 class="footer-title">ONDE ESTAMOS</h4>
+          <p class="footer-text">
+            <strong>📍 Uberaba, Curitiba - PR</strong><br>
+            🛵 Entregas em Curitiba e Região Metropolitana
+          </p>
+          <p class="footer-text" style="margin-top: 12px;">
+            <strong>Pedidos e encomendas:</strong><br>
+            WhatsApp ou Direct do Instagram<br>
+            <a href="https://www.instagram.com/yaemi.doces/" target="_blank" rel="noopener noreferrer">@yaemi.doces</a>
+          </p>
+        </div>
+
+        <div class="footer-col">
+          <h4 class="footer-title">CLUBE YAEMI</h4>
+          <p class="footer-text">Cadastre seu e-mail para receber novidades, sabores novos e promoções em primeira mão.</p>
+          <form class="footer-newsletter-form" onsubmit="event.preventDefault(); alert('Obrigado! Você receberá as novidades da Yaemi em primeira mão.');">
+            <input type="email" placeholder="Seu melhor e-mail" required class="footer-input">
+            <button type="submit" class="footer-btn">OK</button>
+          </form>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>© 2026 Yaemi Cookies e Doces Artesanais — Todos os direitos reservados. Feito com amor, açúcar e chocolate.</p>
+        <p class="footer-credit">Uberaba • Curitiba - PR</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- DETAIL MODAL (Quick View for Card Flavors) -->
+  <div class="modal-backdrop" id="flavorModalBackdrop">
+    <div class="modal-card" id="flavorModalContent">
+      <button class="modal-close-btn" id="modalCloseBtn" aria-label="Fechar Modal">&times;</button>
+      <div class="modal-grid">
+        <div class="modal-media">
+          <img src="assets/cookie-nutella.jpg" alt="Foto ampliada do cookie" class="modal-img" id="modalImg">
+        </div>
+        <div class="modal-details">
+          <span class="modal-eyebrow" id="modalEyebrow">RECEITA ARTESANAL</span>
+          <h3 class="modal-title" id="modalTitle">Nutella</h3>
+          <p class="modal-script" id="modalScript">“O queridinho da Yaemi.”</p>
+          <p class="modal-desc" id="modalDesc">Descrição detalhada do produto.</p>
+          
+          <div class="modal-specs">
+            <div class="spec-chip"><strong>Feito:</strong> À mão</div>
+            <div class="spec-chip"><strong>Fornada:</strong> Pequenos lotes</div>
+            <div class="spec-chip"><strong>Entrega:</strong> CWB &amp; Região</div>
+          </div>
+
+          <div class="modal-footer-action">
+            <div class="modal-price" id="modalPrice">R$ 19,00</div>
+            <button class="btn btn-filled-indigo" id="modalAddCartBtn">ADICIONAR À SACOLA</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- FLOATING CART DRAWER -->
+  <div class="cart-drawer-backdrop" id="cartDrawerBackdrop">
+    <div class="cart-drawer" id="cartDrawer">
+      <div class="cart-drawer-header">
+        <div class="cart-drawer-title-wrap">
+          <h3 class="cart-drawer-title">SUA SACOLA YAEMI</h3>
+          <span class="cart-drawer-sub" id="cartDrawerCount">0 itens adicionados</span>
+        </div>
+        <button class="cart-drawer-close" id="closeCartDrawerBtn">&times;</button>
+      </div>
+
+      <div class="cart-drawer-body" id="cartDrawerItems">
+        <div class="empty-cart-state">
+          <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="var(--color-deep-indigo)" stroke-width="1.5">
+            <path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4Z"/><path d="M3 6h18"/><path d="M16 10a4 4 0 0 1-8 0"/>
+          </svg>
+          <p>Sua sacola está vazia no momento.<br>Adicione cookies ou monte sua caixa!</p>
+        </div>
+      </div>
+
+      <div class="cart-drawer-footer">
+        <div class="drawer-total-row">
+          <span>Total:</span>
+          <strong id="drawerTotalValue">R$ 0,00</strong>
+        </div>
+        <button class="btn btn-filled-indigo full-width" id="btnCheckoutDrawer">
+          FINALIZAR NO WHATSAPP
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- FLOATING STICKY WHATSAPP PILL BUTTON -->
+  <a href="#" data-wa-text="Olá Yaemi! Vim pelo site e gostaria de fazer um pedido." target="_blank" rel="noopener noreferrer" class="floating-whatsapp-pill js-whatsapp-link" aria-label="Falar no WhatsApp">
+    <div class="whatsapp-pill-icon">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor">
+        <path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/>
+      </svg>
+    </div>
+    <div class="whatsapp-pill-text">
+      <span class="whatsapp-title">PEDIR NO WHATSAPP</span>
+      <span class="whatsapp-status">Atendimento Rápido</span>
+    </div>
+  </a>
+
+  <script src="app.js"></script>
+</body>
+</html>

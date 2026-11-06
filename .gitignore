@@ -1,0 +1,31 @@
+# Vercel & Deploy
+.vercel/
+
+# Backups & Raw WhatsApp Source Media
+_backup_antigo/
+Novas fotos/
+Yaemi Doces/
+scratch/
+test-mobile.png
+temp_dim_test*.html
+
+# Loose unorganized desktop files
+*.xlsx
+*.pdf
+foto*.jpg
+foto .jpg
+foto 1.jpg
+foto 2.jpg
+foto 3.jpg
+cardapio.jpg
+logo.jpg
+video cookie.mp4
+WhatsApp Image*
+
+# OS & Editor
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+*.log
